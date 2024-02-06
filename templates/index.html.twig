@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    {{ project_author }}
+    <hr>
+	{% for movie in movies %}
+		<li>
+			{{ movie }}
+		</li>
+	{% endfor %}
+{% endblock %}
