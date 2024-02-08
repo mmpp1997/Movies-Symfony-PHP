@@ -16,7 +16,7 @@
         "symfony/dotenv": "7.0.*",
         "symfony/flex": "^2",
         "symfony/framework-bundle": "7.0.*",
-        "symfony/maker-bundle": "^1.53",
+        "symfony/maker-bundle": "^1.54",
         "symfony/runtime": "7.0.*",
         "symfony/twig-bundle": "7.0.*",
         "symfony/yaml": "7.0.*",
@@ -71,5 +71,8 @@
             "allow-contrib": false,
             "require": "7.0.*"
         }
+    },
+    "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "^3.5"
     }
 }
