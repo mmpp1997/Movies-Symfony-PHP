@@ -21,5 +21,10 @@
         <p class="text-xl py-6">
             {{ movie.description }}
         </p>
+        <a 
+            href="/movies/edit/{{movie.id}}" 
+            class="uppercase border border-gray-500 text-lg py-4 px-6 rounded transition transition-all bg-gray-800 text-white hover:bg-white hover:text-gray-800">
+            Edit a movie
+        </a>
     </div>
 {% endblock %}
